@@ -217,7 +217,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c068cd11e19bdef489213b91ac9cb235, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 
+  sceneName: MiniGame
 --- !u!4 &507594616
 Transform:
   m_ObjectHideFlags: 0
@@ -856,6 +856,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: {fileID: 11400000, guid: a5a81af7a6dfa6b408c54819b5a4e506, type: 2}
+  move: {x: 0, y: 0, z: 0}
 --- !u!95 &2142736887
 Animator:
   serializedVersion: 3
