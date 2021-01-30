@@ -12,4 +12,10 @@ public class UIButtons : MonoBehaviour
         SceneManager.LoadScene(scene.buildIndex);
         Time.timeScale = 1;
     }
+
+    public void ReturnButton()
+    {
+        SceneManager.LoadScene("MainLevel");
+        Time.timeScale = 1;
+    }
 }
