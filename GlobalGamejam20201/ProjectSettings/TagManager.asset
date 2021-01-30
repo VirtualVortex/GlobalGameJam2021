@@ -45,3 +45,6 @@ TagManager:
   - name: Arrow
     uniqueID: 798662711
     locked: 0
+  - name: Background
+    uniqueID: 1408977341
+    locked: 0
