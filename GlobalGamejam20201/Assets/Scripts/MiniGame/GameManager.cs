@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -14,6 +15,11 @@ public class GameManager : MonoBehaviour
 
     public int currentScore;
     public int scorePerNote = 100;
+
+    public Text scoreText;
+    public Text MultiText;
+
+    public Slider progressBar;
 
     // Start is called before the first frame update
     void Start()
@@ -41,6 +47,8 @@ public class GameManager : MonoBehaviour
         Debug.Log("Hit On time");
 
         currentScore += scorePerNote;
+        scoreText.text = "Score: " + currentScore;
+        progressBar.value += 10f;
     }
 
     public void NoteMissed()
