@@ -29,7 +29,7 @@ public class GameManager : MonoBehaviour
     public float MaxNum = 100;
 
     public GameObject WonPanel;
-    public GameObject RestartPanel;
+    
 
 
     // Start is called before the first frame update
@@ -84,12 +84,6 @@ public class GameManager : MonoBehaviour
             theMusic.Stop();
             Time.timeScale = 0;
         }
-        /*else
-        {
-            RestartPanel.SetActive(true);
-            theMusic.Stop();
-        }*/
-
     }
 
     public void NoteMissed()

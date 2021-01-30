@@ -8,13 +8,14 @@ public class NoteObject : MonoBehaviour
 
     public KeyCode keyToPress;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameManager manager;
 
-    // Update is called once per frame
+    public GameObject RestartPanel;
+
+    private void Start()
+    {
+        RestartPanel.SetActive(false);
+    }
     void Update()
     {
         if(Input.GetKeyDown(keyToPress))
@@ -43,5 +44,13 @@ public class NoteObject : MonoBehaviour
             CanBePressed = false;
             GameManager.instance.NoteMissed();
         }
+
+        if(tag == "LastArrow" && manager.progressBar.value < 100)
+        {
+            RestartPanel.SetActive(true);
+            manager.theMusic.Stop();
+            Time.timeScale = 0;
+        }
+
     }
 }

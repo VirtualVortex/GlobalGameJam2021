@@ -429,6 +429,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CanBePressed: 0
   keyToPress: 276
+  manager: {fileID: 1781020267}
+  RestartPanel: {fileID: 1953850660}
 --- !u!1 &254547358
 GameObject:
   m_ObjectHideFlags: 0
@@ -492,6 +494,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CanBePressed: 0
   keyToPress: 276
+  manager: {fileID: 1781020267}
+  RestartPanel: {fileID: 1953850660}
 --- !u!212 &254547362
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -605,6 +609,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CanBePressed: 0
   keyToPress: 275
+  manager: {fileID: 1781020267}
+  RestartPanel: {fileID: 1953850660}
 --- !u!212 &297628922
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -798,6 +804,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CanBePressed: 0
   keyToPress: 274
+  manager: {fileID: 1781020267}
+  RestartPanel: {fileID: 1953850660}
 --- !u!212 &410740860
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -911,6 +919,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CanBePressed: 0
   keyToPress: 274
+  manager: {fileID: 1781020267}
+  RestartPanel: {fileID: 1953850660}
 --- !u!212 &416333249
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1102,7 +1112,7 @@ GameObject:
   - component: {fileID: 489849713}
   m_Layer: 0
   m_Name: UpArrow (3)
-  m_TagString: Untagged
+  m_TagString: LastArrow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1151,6 +1161,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CanBePressed: 0
   keyToPress: 273
+  manager: {fileID: 1781020267}
+  RestartPanel: {fileID: 1953850660}
 --- !u!212 &489849715
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1264,6 +1276,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CanBePressed: 0
   keyToPress: 274
+  manager: {fileID: 1781020267}
+  RestartPanel: {fileID: 1953850660}
 --- !u!212 &491903183
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1377,6 +1391,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CanBePressed: 0
   keyToPress: 274
+  manager: {fileID: 1781020267}
+  RestartPanel: {fileID: 1953850660}
 --- !u!212 &529475195
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1898,6 +1914,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CanBePressed: 0
   keyToPress: 273
+  manager: {fileID: 1781020267}
+  RestartPanel: {fileID: 1953850660}
 --- !u!1 &781652145
 GameObject:
   m_ObjectHideFlags: 0
@@ -2011,6 +2029,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CanBePressed: 0
   keyToPress: 276
+  manager: {fileID: 1781020267}
+  RestartPanel: {fileID: 1953850660}
 --- !u!1 &784183961
 GameObject:
   m_ObjectHideFlags: 0
@@ -2142,7 +2162,7 @@ RectTransform:
   m_GameObject: {fileID: 797488846}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.6409322, y: 1.6409322, z: 1.6409322}
+  m_LocalScale: {x: 2.1897137, y: 2.1897137, z: 2.1897137}
   m_Children:
   - {fileID: 1998709011}
   m_Father: {fileID: 1953850661}
@@ -2150,7 +2170,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -133}
+  m_AnchoredPosition: {x: 0, y: -142.2}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &797488848
@@ -2174,7 +2194,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 1, g: 0.66404796, b: 0, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -2195,7 +2215,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 797488849}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2042351964}
+        m_MethodName: RestartButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &797488849
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2523,6 +2554,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CanBePressed: 0
   keyToPress: 276
+  manager: {fileID: 1781020267}
+  RestartPanel: {fileID: 1953850660}
 --- !u!212 &938011915
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2719,6 +2752,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CanBePressed: 0
   keyToPress: 273
+  manager: {fileID: 1781020267}
+  RestartPanel: {fileID: 1953850660}
 --- !u!212 &995182660
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3026,6 +3061,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CanBePressed: 0
   keyToPress: 276
+  manager: {fileID: 1781020267}
+  RestartPanel: {fileID: 1953850660}
 --- !u!212 &1441323767
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3285,6 +3322,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CanBePressed: 0
   keyToPress: 275
+  manager: {fileID: 1781020267}
+  RestartPanel: {fileID: 1953850660}
 --- !u!212 &1548977842
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3486,6 +3525,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CanBePressed: 0
   keyToPress: 276
+  manager: {fileID: 1781020267}
+  RestartPanel: {fileID: 1953850660}
 --- !u!212 &1666611593
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3599,6 +3640,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CanBePressed: 0
   keyToPress: 273
+  manager: {fileID: 1781020267}
+  RestartPanel: {fileID: 1953850660}
 --- !u!212 &1678734894
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3769,7 +3812,6 @@ MonoBehaviour:
   progressBar: {fileID: 1609612254}
   MaxNum: 100
   WonPanel: {fileID: 1262291121}
-  RestartPanel: {fileID: 1953850660}
 --- !u!4 &1781020268
 Transform:
   m_ObjectHideFlags: 0
@@ -4069,6 +4111,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CanBePressed: 0
   keyToPress: 275
+  manager: {fileID: 1781020267}
+  RestartPanel: {fileID: 1953850660}
 --- !u!212 &1872933134
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4182,6 +4226,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CanBePressed: 0
   keyToPress: 276
+  manager: {fileID: 1781020267}
+  RestartPanel: {fileID: 1953850660}
 --- !u!212 &1891028846
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4249,7 +4295,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1953850661
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4371,6 +4417,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CanBePressed: 0
   keyToPress: 274
+  manager: {fileID: 1781020267}
+  RestartPanel: {fileID: 1953850660}
 --- !u!212 &1970913109
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4636,6 +4684,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CanBePressed: 0
   keyToPress: 276
+  manager: {fileID: 1781020267}
+  RestartPanel: {fileID: 1953850660}
 --- !u!212 &2019758582
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4686,6 +4736,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2042351964 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4771702723881595593, guid: 341a1cf832fda9f449879607c29e8ed4,
+    type: 3}
+  m_PrefabInstance: {fileID: 5616572743928454302}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e0ed1551ab2eec4c843c464b93ae233, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2078856323
 GameObject:
   m_ObjectHideFlags: 0
@@ -4749,6 +4811,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CanBePressed: 0
   keyToPress: 275
+  manager: {fileID: 1781020267}
+  RestartPanel: {fileID: 1953850660}
 --- !u!212 &2078856327
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4940,6 +5004,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CanBePressed: 0
   keyToPress: 273
+  manager: {fileID: 1781020267}
+  RestartPanel: {fileID: 1953850660}
 --- !u!212 &2101703845
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4990,3 +5056,72 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &5616572743928454302
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4008096438856546583, guid: 341a1cf832fda9f449879607c29e8ed4,
+        type: 3}
+      propertyPath: m_Name
+      value: UIMenus
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765090928859759956, guid: 341a1cf832fda9f449879607c29e8ed4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 27.090185
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765090928859759956, guid: 341a1cf832fda9f449879607c29e8ed4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 16.190805
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765090928859759956, guid: 341a1cf832fda9f449879607c29e8ed4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -105.59614
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765090928859759956, guid: 341a1cf832fda9f449879607c29e8ed4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765090928859759956, guid: 341a1cf832fda9f449879607c29e8ed4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765090928859759956, guid: 341a1cf832fda9f449879607c29e8ed4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765090928859759956, guid: 341a1cf832fda9f449879607c29e8ed4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765090928859759956, guid: 341a1cf832fda9f449879607c29e8ed4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765090928859759956, guid: 341a1cf832fda9f449879607c29e8ed4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765090928859759956, guid: 341a1cf832fda9f449879607c29e8ed4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765090928859759956, guid: 341a1cf832fda9f449879607c29e8ed4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 341a1cf832fda9f449879607c29e8ed4, type: 3}
