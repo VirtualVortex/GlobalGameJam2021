@@ -341,6 +341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c068cd11e19bdef489213b91ac9cb235, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  trigger: 0
   sceneName: 
 --- !u!4 &507594616
 Transform:
@@ -860,6 +861,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c068cd11e19bdef489213b91ac9cb235, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  trigger: 0
   sceneName: 
 --- !u!1 &2107060623
 GameObject:

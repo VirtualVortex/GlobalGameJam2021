@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ChangeScenes : MonoBehaviour
 {
+    [SerializeField] bool trigger;
     [SerializeField] string sceneName;
 
     public void ChangeScene()
@@ -14,6 +15,6 @@ public class ChangeScenes : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag.Contains("Player")) ChangeScene();
+        if (collision.tag.Contains("Player") && trigger) ChangeScene();
     }
 }
