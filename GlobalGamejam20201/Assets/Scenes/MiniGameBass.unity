@@ -146,7 +146,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 27981084}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -764.18, y: -204.49, z: 0}
+  m_LocalPosition: {x: -764.18, y: -204.52, z: 0}
   m_LocalScale: {x: 4.984008, y: 4.050569, z: 0.7200513}
   m_Children: []
   m_Father: {fileID: 1128936395}
@@ -329,7 +329,7 @@ GameObject:
   - component: {fileID: 204650534}
   - component: {fileID: 204650533}
   m_Layer: 0
-  m_Name: LeftArrow
+  m_Name: UpArrowsNew
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -344,7 +344,7 @@ Transform:
   m_GameObject: {fileID: 204650530}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
   m_LocalPosition: {x: -6.685, y: 4.94, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.4169188, y: 2.0353, z: 2.0353}
   m_Children: []
   m_Father: {fileID: 1834013913}
   m_RootOrder: 0
@@ -388,7 +388,7 @@ SpriteRenderer:
   m_SortingLayerID: 798662711
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 66f81ff9556e8944986b7e1797a75595, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -428,7 +428,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CanBePressed: 0
-  keyToPress: 276
+  keyToPress: 273
   manager: {fileID: 1781020267}
   RestartPanel: {fileID: 1953850660}
 --- !u!1 &249268228
@@ -522,7 +522,7 @@ GameObject:
   - component: {fileID: 254547361}
   - component: {fileID: 254547360}
   m_Layer: 0
-  m_Name: LeftArrow (6)
+  m_Name: UpArrowsNew
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -537,7 +537,7 @@ Transform:
   m_GameObject: {fileID: 254547358}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
   m_LocalPosition: {x: -6.685, y: 37.1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.4169188, y: 2.0353, z: 2.0353}
   m_Children: []
   m_Father: {fileID: 1834013913}
   m_RootOrder: 19
@@ -571,7 +571,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CanBePressed: 0
-  keyToPress: 276
+  keyToPress: 273
   manager: {fileID: 1781020267}
   RestartPanel: {fileID: 1953850660}
 --- !u!212 &254547362
@@ -613,7 +613,7 @@ SpriteRenderer:
   m_SortingLayerID: 798662711
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 66f81ff9556e8944986b7e1797a75595, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -637,7 +637,7 @@ GameObject:
   - component: {fileID: 297628921}
   - component: {fileID: 297628920}
   m_Layer: 0
-  m_Name: RightArrow (1)
+  m_Name: DownArrowNew
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -652,7 +652,7 @@ Transform:
   m_GameObject: {fileID: 297628918}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.27, y: 12.62, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.4169188, y: 2.0353, z: 2.0353}
   m_Children: []
   m_Father: {fileID: 1834013913}
   m_RootOrder: 6
@@ -686,7 +686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CanBePressed: 0
-  keyToPress: 275
+  keyToPress: 274
   manager: {fileID: 1781020267}
   RestartPanel: {fileID: 1953850660}
 --- !u!212 &297628922
@@ -728,7 +728,7 @@ SpriteRenderer:
   m_SortingLayerID: 798662711
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 66f81ff9556e8944986b7e1797a75595, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -959,7 +959,7 @@ GameObject:
   - component: {fileID: 410740859}
   - component: {fileID: 410740858}
   m_Layer: 0
-  m_Name: DownArrow (2)
+  m_Name: LeftArrowsNew
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -974,7 +974,7 @@ Transform:
   m_GameObject: {fileID: 410740856}
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: -4.4500003, y: 26.46, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.0353, y: 2.4169188, z: 2.0353}
   m_Children: []
   m_Father: {fileID: 1834013913}
   m_RootOrder: 13
@@ -1008,7 +1008,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CanBePressed: 0
-  keyToPress: 274
+  keyToPress: 276
   manager: {fileID: 1781020267}
   RestartPanel: {fileID: 1953850660}
 --- !u!212 &410740860
@@ -1050,7 +1050,7 @@ SpriteRenderer:
   m_SortingLayerID: 798662711
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 66f81ff9556e8944986b7e1797a75595, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1074,7 +1074,7 @@ GameObject:
   - component: {fileID: 416333248}
   - component: {fileID: 416333247}
   m_Layer: 0
-  m_Name: DownArrow (1)
+  m_Name: LeftArrowsNew
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1089,7 +1089,7 @@ Transform:
   m_GameObject: {fileID: 416333245}
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: -4.4500003, y: 14.71, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.0353, y: 2.4169188, z: 2.0353}
   m_Children: []
   m_Father: {fileID: 1834013913}
   m_RootOrder: 7
@@ -1123,7 +1123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CanBePressed: 0
-  keyToPress: 274
+  keyToPress: 276
   manager: {fileID: 1781020267}
   RestartPanel: {fileID: 1953850660}
 --- !u!212 &416333249
@@ -1165,7 +1165,7 @@ SpriteRenderer:
   m_SortingLayerID: 798662711
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 66f81ff9556e8944986b7e1797a75595, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1189,7 +1189,7 @@ GameObject:
   - component: {fileID: 489849714}
   - component: {fileID: 489849713}
   m_Layer: 0
-  m_Name: UpArrow (3)
+  m_Name: RightArrowsNew
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1204,7 +1204,7 @@ Transform:
   m_GameObject: {fileID: 489849711}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: -5.6, y: 44.9, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.0353, y: 2.4169188, z: 2.0353}
   m_Children: []
   m_Father: {fileID: 1834013913}
   m_RootOrder: 21
@@ -1238,7 +1238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CanBePressed: 0
-  keyToPress: 273
+  keyToPress: 275
   manager: {fileID: 1781020267}
   RestartPanel: {fileID: 1953850660}
 --- !u!212 &489849715
@@ -1280,7 +1280,7 @@ SpriteRenderer:
   m_SortingLayerID: 798662711
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 66f81ff9556e8944986b7e1797a75595, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1304,7 +1304,7 @@ GameObject:
   - component: {fileID: 491903182}
   - component: {fileID: 491903181}
   m_Layer: 0
-  m_Name: DownArrow
+  m_Name: LeftArrowsNew
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1319,7 +1319,7 @@ Transform:
   m_GameObject: {fileID: 491903179}
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: -4.4500003, y: 6.2000003, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.0353, y: 2.4169188, z: 2.0353}
   m_Children: []
   m_Father: {fileID: 1834013913}
   m_RootOrder: 3
@@ -1353,7 +1353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CanBePressed: 0
-  keyToPress: 274
+  keyToPress: 276
   manager: {fileID: 1781020267}
   RestartPanel: {fileID: 1953850660}
 --- !u!212 &491903183
@@ -1395,7 +1395,7 @@ SpriteRenderer:
   m_SortingLayerID: 798662711
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 66f81ff9556e8944986b7e1797a75595, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1419,7 +1419,7 @@ GameObject:
   - component: {fileID: 529475194}
   - component: {fileID: 529475193}
   m_Layer: 0
-  m_Name: DownArrow (4)
+  m_Name: LeftArrowsNew
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1434,7 +1434,7 @@ Transform:
   m_GameObject: {fileID: 529475191}
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: -4.4500003, y: 41.8, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.0353, y: 2.4169188, z: 2.0353}
   m_Children: []
   m_Father: {fileID: 1834013913}
   m_RootOrder: 20
@@ -1468,7 +1468,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CanBePressed: 0
-  keyToPress: 274
+  keyToPress: 276
   manager: {fileID: 1781020267}
   RestartPanel: {fileID: 1953850660}
 --- !u!212 &529475195
@@ -1510,7 +1510,7 @@ SpriteRenderer:
   m_SortingLayerID: 798662711
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 66f81ff9556e8944986b7e1797a75595, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1601,7 +1601,7 @@ GameObject:
   - component: {fileID: 630296436}
   - component: {fileID: 630296435}
   m_Layer: 0
-  m_Name: Buttons_Green
+  m_Name: Green
   m_TagString: Activator
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1619,9 +1619,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc5f033aa3f1f0945badec54ca2fe525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultImage: {fileID: 21300000, guid: c3c13b1f8baa5dd4a86d3dc186668178, type: 3}
-  pressedImage: {fileID: 21300000, guid: 2d10ec486261df445b73774ff82f1b69, type: 3}
-  keyToPress: 275
+  defaultImage: {fileID: -7513183234207095433, guid: d286de1123776af45aaac0a59700e15f,
+    type: 3}
+  pressedImage: {fileID: 8157512493964141685, guid: 6764ff9cf7936dc4d8597379bddced63,
+    type: 3}
+  keyToPress: 274
 --- !u!212 &630296433
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1661,7 +1663,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: c3c13b1f8baa5dd4a86d3dc186668178, type: 3}
+  m_Sprite: {fileID: -7513183234207095433, guid: d286de1123776af45aaac0a59700e15f,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1680,8 +1683,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 630296431}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -760.88995, y: -204.44998, z: 0}
-  m_LocalScale: {x: 1.1418768, y: 1.1418768, z: 1.1418768}
+  m_LocalPosition: {x: -760.88995, y: -204.61, z: 0}
+  m_LocalScale: {x: 2.7977123, y: 2.7977123, z: 2.7977123}
   m_Children: []
   m_Father: {fileID: 1128936395}
   m_RootOrder: 4
@@ -1720,18 +1723,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.0042064935, y: 0.054683857}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.36, y: 0.38}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.5}
+  m_Size: {x: 0.3269705, y: 0.22237538}
   m_EdgeRadius: 0
 --- !u!1 &685798081
 GameObject:
@@ -1747,7 +1750,7 @@ GameObject:
   - component: {fileID: 685798086}
   - component: {fileID: 685798085}
   m_Layer: 0
-  m_Name: Buttons_Blue
+  m_Name: Red
   m_TagString: Activator
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1792,7 +1795,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ad187f74f2d0cc4499f39a0267b9eda8, type: 3}
+  m_Sprite: {fileID: 8588077552831730765, guid: d286de1123776af45aaac0a59700e15f,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1811,8 +1815,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 685798081}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -763.08997, y: -204.44998, z: 0}
-  m_LocalScale: {x: 1.1418768, y: 1.1418768, z: 1.1418768}
+  m_LocalPosition: {x: -763.08997, y: -204.61, z: 0}
+  m_LocalScale: {x: 2.7977123, y: 2.7977123, z: 2.7977123}
   m_Children: []
   m_Father: {fileID: 1128936395}
   m_RootOrder: 3
@@ -1829,9 +1833,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc5f033aa3f1f0945badec54ca2fe525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultImage: {fileID: 21300000, guid: ad187f74f2d0cc4499f39a0267b9eda8, type: 3}
-  pressedImage: {fileID: 21300000, guid: 18bf226de2d59284e904c26430f659c9, type: 3}
-  keyToPress: 273
+  defaultImage: {fileID: 8588077552831730765, guid: d286de1123776af45aaac0a59700e15f,
+    type: 3}
+  pressedImage: {fileID: -4202579963591151892, guid: 6764ff9cf7936dc4d8597379bddced63,
+    type: 3}
+  keyToPress: 275
 --- !u!50 &685798085
 Rigidbody2D:
   serializedVersion: 4
@@ -1866,18 +1872,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.0027723014, y: 0.029540606}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.36, y: 0.38}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.5}
+  m_Size: {x: 0.31224114, y: 0.23097594}
   m_EdgeRadius: 0
 --- !u!1 &702391112
 GameObject:
@@ -1892,7 +1898,7 @@ GameObject:
   - component: {fileID: 702391116}
   - component: {fileID: 702391115}
   m_Layer: 0
-  m_Name: UpArrow
+  m_Name: RightArrowsNew
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1907,7 +1913,7 @@ Transform:
   m_GameObject: {fileID: 702391112}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: -5.6, y: 2.6, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.0353, y: 2.4169188, z: 2.0353}
   m_Children: []
   m_Father: {fileID: 1834013913}
   m_RootOrder: 2
@@ -1951,7 +1957,7 @@ SpriteRenderer:
   m_SortingLayerID: 798662711
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 66f81ff9556e8944986b7e1797a75595, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1991,7 +1997,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CanBePressed: 0
-  keyToPress: 273
+  keyToPress: 275
   manager: {fileID: 1781020267}
   RestartPanel: {fileID: 1953850660}
 --- !u!1 &781652145
@@ -2007,7 +2013,7 @@ GameObject:
   - component: {fileID: 781652149}
   - component: {fileID: 781652148}
   m_Layer: 0
-  m_Name: LeftArrow
+  m_Name: UpArrowsNew
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2022,7 +2028,7 @@ Transform:
   m_GameObject: {fileID: 781652145}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
   m_LocalPosition: {x: -6.685, y: 3.62, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.4169188, y: 2.0353, z: 2.0353}
   m_Children: []
   m_Father: {fileID: 1834013913}
   m_RootOrder: 1
@@ -2066,7 +2072,7 @@ SpriteRenderer:
   m_SortingLayerID: 798662711
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 66f81ff9556e8944986b7e1797a75595, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2106,7 +2112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CanBePressed: 0
-  keyToPress: 276
+  keyToPress: 273
   manager: {fileID: 1781020267}
   RestartPanel: {fileID: 1953850660}
 --- !u!1 &784183961
@@ -2367,7 +2373,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 885023981}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -761.99, y: -204.49, z: 0}
+  m_LocalPosition: {x: -761.99, y: -204.52, z: 0}
   m_LocalScale: {x: 4.984008, y: 4.050569, z: 0.7200513}
   m_Children: []
   m_Father: {fileID: 1128936395}
@@ -2437,7 +2443,7 @@ GameObject:
   - component: {fileID: 915866425}
   - component: {fileID: 915866424}
   m_Layer: 0
-  m_Name: Buttons_Yellow
+  m_Name: Purple
   m_TagString: Activator
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2455,9 +2461,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc5f033aa3f1f0945badec54ca2fe525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultImage: {fileID: 21300000, guid: ed2984e24d5df6f46a80ead6ad2964fa, type: 3}
-  pressedImage: {fileID: 21300000, guid: 8f47ff751b3bdec48862adf0100c74fa, type: 3}
-  keyToPress: 274
+  defaultImage: {fileID: -7779797092551065474, guid: d286de1123776af45aaac0a59700e15f,
+    type: 3}
+  pressedImage: {fileID: -3410841169162387056, guid: 6764ff9cf7936dc4d8597379bddced63,
+    type: 3}
+  keyToPress: 276
 --- !u!212 &915866422
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2497,7 +2505,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ed2984e24d5df6f46a80ead6ad2964fa, type: 3}
+  m_Sprite: {fileID: -7779797092551065474, guid: d286de1123776af45aaac0a59700e15f,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2516,8 +2525,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 915866420}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -761.99, y: -204.44998, z: 0}
-  m_LocalScale: {x: 1.1418768, y: 1.1418768, z: 1.1418768}
+  m_LocalPosition: {x: -761.99, y: -204.61, z: 0}
+  m_LocalScale: {x: 2.7977123, y: 2.7977123, z: 2.7977123}
   m_Children: []
   m_Father: {fileID: 1128936395}
   m_RootOrder: 5
@@ -2556,18 +2565,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.004206471, y: 0.039961122}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.36, y: 0.38}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.5}
+  m_Size: {x: 0.30173194, y: 0.23499466}
   m_EdgeRadius: 0
 --- !u!1 &938011911
 GameObject:
@@ -2582,7 +2591,7 @@ GameObject:
   - component: {fileID: 938011914}
   - component: {fileID: 938011913}
   m_Layer: 0
-  m_Name: LeftArrow (3)
+  m_Name: UpArrowsNew
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2597,7 +2606,7 @@ Transform:
   m_GameObject: {fileID: 938011911}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
   m_LocalPosition: {x: -6.685, y: 25.199999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.4169188, y: 2.0353, z: 2.0353}
   m_Children: []
   m_Father: {fileID: 1834013913}
   m_RootOrder: 10
@@ -2631,7 +2640,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CanBePressed: 0
-  keyToPress: 276
+  keyToPress: 273
   manager: {fileID: 1781020267}
   RestartPanel: {fileID: 1953850660}
 --- !u!212 &938011915
@@ -2673,7 +2682,7 @@ SpriteRenderer:
   m_SortingLayerID: 798662711
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 66f81ff9556e8944986b7e1797a75595, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2780,7 +2789,7 @@ GameObject:
   - component: {fileID: 995182659}
   - component: {fileID: 995182658}
   m_Layer: 0
-  m_Name: UpArrow
+  m_Name: RightArrowsNew
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2795,7 +2804,7 @@ Transform:
   m_GameObject: {fileID: 995182656}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: -5.5799994, y: 8.469999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.0353, y: 2.4169188, z: 2.0353}
   m_Children: []
   m_Father: {fileID: 1834013913}
   m_RootOrder: 4
@@ -2829,7 +2838,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CanBePressed: 0
-  keyToPress: 273
+  keyToPress: 275
   manager: {fileID: 1781020267}
   RestartPanel: {fileID: 1953850660}
 --- !u!212 &995182660
@@ -2871,7 +2880,7 @@ SpriteRenderer:
   m_SortingLayerID: 798662711
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 66f81ff9556e8944986b7e1797a75595, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3190,7 +3199,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1153324266}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -760.89, y: -204.46, z: 0}
+  m_LocalPosition: {x: -760.89, y: -204.49, z: 0}
   m_LocalScale: {x: 4.984008, y: 4.050569, z: 0.7200513}
   m_Children: []
   m_Father: {fileID: 1128936395}
@@ -3335,7 +3344,7 @@ GameObject:
   - component: {fileID: 1441323766}
   - component: {fileID: 1441323765}
   m_Layer: 0
-  m_Name: LeftArrow (4)
+  m_Name: UpArrowsNew
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3350,7 +3359,7 @@ Transform:
   m_GameObject: {fileID: 1441323763}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
   m_LocalPosition: {x: -6.685, y: 23.879997, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.4169188, y: 2.0353, z: 2.0353}
   m_Children: []
   m_Father: {fileID: 1834013913}
   m_RootOrder: 11
@@ -3384,7 +3393,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CanBePressed: 0
-  keyToPress: 276
+  keyToPress: 273
   manager: {fileID: 1781020267}
   RestartPanel: {fileID: 1953850660}
 --- !u!212 &1441323767
@@ -3426,7 +3435,7 @@ SpriteRenderer:
   m_SortingLayerID: 798662711
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 66f81ff9556e8944986b7e1797a75595, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3451,7 +3460,7 @@ GameObject:
   - component: {fileID: 1534350059}
   - component: {fileID: 1534350058}
   m_Layer: 0
-  m_Name: Buttons_Red
+  m_Name: Blue
   m_TagString: Activator
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3469,9 +3478,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc5f033aa3f1f0945badec54ca2fe525, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultImage: {fileID: 21300000, guid: 1bbda9210988dfd4db252a09838d254f, type: 3}
-  pressedImage: {fileID: 21300000, guid: cacc39dd2a4e88a43aadeddd73e9b1e2, type: 3}
-  keyToPress: 276
+  defaultImage: {fileID: 4440247716970782300, guid: d286de1123776af45aaac0a59700e15f,
+    type: 3}
+  pressedImage: {fileID: 9065320550893636814, guid: 6764ff9cf7936dc4d8597379bddced63,
+    type: 3}
+  keyToPress: 273
 --- !u!212 &1534350056
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3511,7 +3522,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1bbda9210988dfd4db252a09838d254f, type: 3}
+  m_Sprite: {fileID: 4440247716970782300, guid: d286de1123776af45aaac0a59700e15f,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3530,8 +3542,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1534350054}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -764.18994, y: -204.44998, z: 0}
-  m_LocalScale: {x: 1.1418768, y: 1.1418768, z: 1.1418768}
+  m_LocalPosition: {x: -764.18994, y: -204.61, z: 0}
+  m_LocalScale: {x: 2.7977123, y: 2.7977123, z: 2.7977123}
   m_Children: []
   m_Father: {fileID: 1128936395}
   m_RootOrder: 2
@@ -3570,18 +3582,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.0027722418, y: -0.019407287}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.36, y: 0.38}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.5}
+  m_Size: {x: 0.3290668, y: 0.28374866}
   m_EdgeRadius: 0
 --- !u!1 &1548977838
 GameObject:
@@ -3596,7 +3608,7 @@ GameObject:
   - component: {fileID: 1548977841}
   - component: {fileID: 1548977840}
   m_Layer: 0
-  m_Name: RightArrow
+  m_Name: DownArrowNew
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3611,7 +3623,7 @@ Transform:
   m_GameObject: {fileID: 1548977838}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.27, y: 10.01, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.4169188, y: 2.0353, z: 2.0353}
   m_Children: []
   m_Father: {fileID: 1834013913}
   m_RootOrder: 5
@@ -3645,7 +3657,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CanBePressed: 0
-  keyToPress: 275
+  keyToPress: 274
   manager: {fileID: 1781020267}
   RestartPanel: {fileID: 1953850660}
 --- !u!212 &1548977842
@@ -3687,7 +3699,7 @@ SpriteRenderer:
   m_SortingLayerID: 798662711
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 66f81ff9556e8944986b7e1797a75595, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3799,7 +3811,7 @@ GameObject:
   - component: {fileID: 1666611592}
   - component: {fileID: 1666611591}
   m_Layer: 0
-  m_Name: LeftArrow (5)
+  m_Name: UpArrowsNew
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3814,7 +3826,7 @@ Transform:
   m_GameObject: {fileID: 1666611589}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
   m_LocalPosition: {x: -6.685, y: 39.339996, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.4169188, y: 2.0353, z: 2.0353}
   m_Children: []
   m_Father: {fileID: 1834013913}
   m_RootOrder: 18
@@ -3848,7 +3860,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CanBePressed: 0
-  keyToPress: 276
+  keyToPress: 273
   manager: {fileID: 1781020267}
   RestartPanel: {fileID: 1953850660}
 --- !u!212 &1666611593
@@ -3890,7 +3902,7 @@ SpriteRenderer:
   m_SortingLayerID: 798662711
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 66f81ff9556e8944986b7e1797a75595, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3914,7 +3926,7 @@ GameObject:
   - component: {fileID: 1678734893}
   - component: {fileID: 1678734892}
   m_Layer: 0
-  m_Name: UpArrow (1)
+  m_Name: RightArrowsNew
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3929,7 +3941,7 @@ Transform:
   m_GameObject: {fileID: 1678734890}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: -5.6, y: 22.859999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.0353, y: 2.4169188, z: 2.0353}
   m_Children: []
   m_Father: {fileID: 1834013913}
   m_RootOrder: 12
@@ -3963,7 +3975,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CanBePressed: 0
-  keyToPress: 273
+  keyToPress: 275
   manager: {fileID: 1781020267}
   RestartPanel: {fileID: 1953850660}
 --- !u!212 &1678734894
@@ -4005,7 +4017,7 @@ SpriteRenderer:
   m_SortingLayerID: 798662711
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 66f81ff9556e8944986b7e1797a75595, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4175,7 +4187,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1833472698}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -763.08, y: -204.46, z: 0}
+  m_LocalPosition: {x: -763.08, y: -204.53, z: 0}
   m_LocalScale: {x: 4.984008, y: 4.050569, z: 0.7200513}
   m_Children: []
   m_Father: {fileID: 1128936395}
@@ -4386,7 +4398,7 @@ GameObject:
   - component: {fileID: 1872933133}
   - component: {fileID: 1872933132}
   m_Layer: 0
-  m_Name: RightArrow (3)
+  m_Name: DownArrowNew
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4401,7 +4413,7 @@ Transform:
   m_GameObject: {fileID: 1872933130}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.27, y: 32.879997, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.4169188, y: 2.0353, z: 2.0353}
   m_Children: []
   m_Father: {fileID: 1834013913}
   m_RootOrder: 16
@@ -4435,7 +4447,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CanBePressed: 0
-  keyToPress: 275
+  keyToPress: 274
   manager: {fileID: 1781020267}
   RestartPanel: {fileID: 1953850660}
 --- !u!212 &1872933134
@@ -4477,7 +4489,7 @@ SpriteRenderer:
   m_SortingLayerID: 798662711
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 66f81ff9556e8944986b7e1797a75595, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4501,7 +4513,7 @@ GameObject:
   - component: {fileID: 1891028845}
   - component: {fileID: 1891028844}
   m_Layer: 0
-  m_Name: LeftArrow (2)
+  m_Name: UpArrowsNew
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4516,7 +4528,7 @@ Transform:
   m_GameObject: {fileID: 1891028842}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
   m_LocalPosition: {x: -6.685, y: 16.84, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.4169188, y: 2.0353, z: 2.0353}
   m_Children: []
   m_Father: {fileID: 1834013913}
   m_RootOrder: 9
@@ -4550,7 +4562,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CanBePressed: 0
-  keyToPress: 276
+  keyToPress: 273
   manager: {fileID: 1781020267}
   RestartPanel: {fileID: 1953850660}
 --- !u!212 &1891028846
@@ -4592,7 +4604,7 @@ SpriteRenderer:
   m_SortingLayerID: 798662711
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 66f81ff9556e8944986b7e1797a75595, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4692,7 +4704,7 @@ GameObject:
   - component: {fileID: 1970913108}
   - component: {fileID: 1970913107}
   m_Layer: 0
-  m_Name: DownArrow (3)
+  m_Name: LeftArrowsNew
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4707,7 +4719,7 @@ Transform:
   m_GameObject: {fileID: 1970913105}
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: -4.4500003, y: 34.969997, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.0353, y: 2.4169188, z: 2.0353}
   m_Children: []
   m_Father: {fileID: 1834013913}
   m_RootOrder: 17
@@ -4741,7 +4753,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CanBePressed: 0
-  keyToPress: 274
+  keyToPress: 276
   manager: {fileID: 1781020267}
   RestartPanel: {fileID: 1953850660}
 --- !u!212 &1970913109
@@ -4783,7 +4795,7 @@ SpriteRenderer:
   m_SortingLayerID: 798662711
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 66f81ff9556e8944986b7e1797a75595, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4959,7 +4971,7 @@ GameObject:
   - component: {fileID: 2019758581}
   - component: {fileID: 2019758580}
   m_Layer: 0
-  m_Name: LeftArrow (1)
+  m_Name: UpArrowsNew
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4974,7 +4986,7 @@ Transform:
   m_GameObject: {fileID: 2019758578}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
   m_LocalPosition: {x: -6.685, y: 19.08, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.4169188, y: 2.0353, z: 2.0353}
   m_Children: []
   m_Father: {fileID: 1834013913}
   m_RootOrder: 8
@@ -5008,7 +5020,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CanBePressed: 0
-  keyToPress: 276
+  keyToPress: 273
   manager: {fileID: 1781020267}
   RestartPanel: {fileID: 1953850660}
 --- !u!212 &2019758582
@@ -5050,7 +5062,7 @@ SpriteRenderer:
   m_SortingLayerID: 798662711
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 66f81ff9556e8944986b7e1797a75595, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5086,7 +5098,7 @@ GameObject:
   - component: {fileID: 2078856326}
   - component: {fileID: 2078856325}
   m_Layer: 0
-  m_Name: RightArrow (2)
+  m_Name: DownArrowNew
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5101,7 +5113,7 @@ Transform:
   m_GameObject: {fileID: 2078856323}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.27, y: 30.269999, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.4169188, y: 2.0353, z: 2.0353}
   m_Children: []
   m_Father: {fileID: 1834013913}
   m_RootOrder: 15
@@ -5135,7 +5147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CanBePressed: 0
-  keyToPress: 275
+  keyToPress: 274
   manager: {fileID: 1781020267}
   RestartPanel: {fileID: 1953850660}
 --- !u!212 &2078856327
@@ -5177,7 +5189,7 @@ SpriteRenderer:
   m_SortingLayerID: 798662711
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 66f81ff9556e8944986b7e1797a75595, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5279,7 +5291,7 @@ GameObject:
   - component: {fileID: 2101703844}
   - component: {fileID: 2101703843}
   m_Layer: 0
-  m_Name: UpArrow (2)
+  m_Name: RightArrowsNew
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5294,7 +5306,7 @@ Transform:
   m_GameObject: {fileID: 2101703841}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: -5.5799994, y: 28.729998, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.0353, y: 2.4169188, z: 2.0353}
   m_Children: []
   m_Father: {fileID: 1834013913}
   m_RootOrder: 14
@@ -5328,7 +5340,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CanBePressed: 0
-  keyToPress: 273
+  keyToPress: 275
   manager: {fileID: 1781020267}
   RestartPanel: {fileID: 1953850660}
 --- !u!212 &2101703845
@@ -5370,7 +5382,7 @@ SpriteRenderer:
   m_SortingLayerID: 798662711
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 60bfd072918779345aef76bf7e212b42, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 66f81ff9556e8944986b7e1797a75595, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
