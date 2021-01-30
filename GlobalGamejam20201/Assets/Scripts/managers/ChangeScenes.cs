@@ -2,14 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Events;
 
 public class ChangeScenes : MonoBehaviour
 {
     [SerializeField] bool trigger;
     [SerializeField] string sceneName;
+    [SerializeField] UnityEvent changingSceneEvent;
 
     public void ChangeScene()
     {
+        changingSceneEvent.Invoke();
         SceneManager.LoadScene(sceneName);
     }
 

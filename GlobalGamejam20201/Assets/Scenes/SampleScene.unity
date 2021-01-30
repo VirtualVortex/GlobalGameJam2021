@@ -470,6 +470,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trigger: 0
   sceneName: 
+  changingSceneEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &507594616
 Transform:
   m_ObjectHideFlags: 0
@@ -1291,6 +1294,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trigger: 0
   sceneName: 
+  changingSceneEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &2107060623
 GameObject:
   m_ObjectHideFlags: 0
