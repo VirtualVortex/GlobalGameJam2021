@@ -11,6 +11,8 @@ public class SpaceShipTrigger : MonoBehaviour
     [SerializeField]
     FloatVariable playerSpeed;
 
+    [HideInInspector] public bool canUse;
+
     public UnityEvent enterShip;
     public UnityEvent leaveShip;
 
@@ -53,10 +55,13 @@ public class SpaceShipTrigger : MonoBehaviour
 
     }
 
+    //To be use for unity event
+    public void CanLeave() => canUse = true;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
 
-        if (!isShip && collision.tag.Contains("Player"))
+        if (!isShip && collision.tag.Contains("Player") && canUse)
         {
             col = collision;
             EnterShip(collision);
@@ -72,4 +77,5 @@ public class SpaceShipTrigger : MonoBehaviour
         if (collision.transform.tag.Contains("Landing"))
             canLeave = false;
     }
+    
 }
