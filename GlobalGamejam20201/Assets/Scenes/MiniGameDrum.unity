@@ -1572,8 +1572,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CanBePressed: 0
   keyToPress: 273
-  manager: {fileID: 0}
-  RestartPanel: {fileID: 0}
+  manager: {fileID: 1781020267}
+  RestartPanel: {fileID: 1953850660}
 --- !u!212 &591683908
 SpriteRenderer:
   m_ObjectHideFlags: 0
