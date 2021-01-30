@@ -21,6 +21,12 @@ public class GameManager : MonoBehaviour
 
     public Slider progressBar;
 
+    public float MaxNum = 100;
+
+    public GameObject WonPanel;
+    public GameObject RestartPanel;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -49,6 +55,18 @@ public class GameManager : MonoBehaviour
         currentScore += scorePerNote;
         scoreText.text = "Score: " + currentScore;
         progressBar.value += 10f;
+        
+        if(progressBar.value == MaxNum)
+        {
+            WonPanel.SetActive(true);
+            theMusic.Stop();
+        }
+        /*else
+        {
+            RestartPanel.SetActive(true);
+            theMusic.Stop();
+        }*/
+
     }
 
     public void NoteMissed()
