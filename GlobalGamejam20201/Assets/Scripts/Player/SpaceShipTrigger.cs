@@ -16,14 +16,12 @@ public class SpaceShipTrigger : MonoBehaviour
 
     bool isShip, canLeave;
     Collider2D col;
-    Animator anim;
     PlayerMovement pm;
 
     // Start is called before the first frame update
     void Start()
     {
         isShip = false;
-        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -31,12 +29,7 @@ public class SpaceShipTrigger : MonoBehaviour
     {
         if (Input.GetKeyDown(key) && isShip && canLeave)
             LeaveShip();
-
-        if (isShip)
-        {
-            anim.SetFloat("SpeedX", pm.move.x);
-            anim.SetFloat("SpeedY", pm.move.y);
-        }
+        
     }
 
     void EnterShip(Collider2D col)

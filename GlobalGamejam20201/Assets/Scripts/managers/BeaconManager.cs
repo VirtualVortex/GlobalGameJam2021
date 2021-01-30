@@ -5,14 +5,14 @@ using UnityEngine;
 public class BeaconManager : MonoBehaviour
 {
     [SerializeField] AudioSource[] audioSources;
-
     int number;
 
     // Start is called before the first frame update
     void Start()
     {
         number = PlayerPrefs.GetInt("saveNum");
-        SwitchAudio();
+
+        if (audioSources.Length > 0) SwitchAudio();
     }
 
     // Update is called once per frame
@@ -33,8 +33,11 @@ public class BeaconManager : MonoBehaviour
         }
     }
 
+    public void ResetNumber() => PlayerPrefs.SetInt("saveNum", 0);
+
     public void SaveNumber()
     {
+        Debug.Log(number + 1);
         PlayerPrefs.SetInt("saveNum", number + 1);
     }
 }
