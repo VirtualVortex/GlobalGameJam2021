@@ -621,14 +621,14 @@ RectTransform:
   m_GameObject: {fileID: 527339817}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.9116697, y: 8.12517, z: 1.9116697}
+  m_LocalScale: {x: 1.2274987, y: 2.4399211, z: 0.5740586}
   m_Children: []
   m_Father: {fileID: 526225613}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 11.4, y: -32.4}
+  m_AnchoredPosition: {x: -0.0000019073486, y: -34.6}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &527339819
@@ -650,7 +650,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2f3788a233e66c84daa6a854ab5e61bf, type: 3}
+  m_Sprite: {fileID: -3358933203163112000, guid: 2f3788a233e66c84daa6a854ab5e61bf,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1330,10 +1331,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   resolutionDropdown: {fileID: 1801425883}
-  audioMixer: {fileID: 0}
+  audioMixer: {fileID: 24100000, guid: ec1f34122ae2a5749af7d779b127bede, type: 2}
   SFXSLIDER: {fileID: 1379554026}
   MusicSlider: {fileID: 1546435053}
-  audioMixerMusic: {fileID: 0}
+  audioMixerMusic: {fileID: 24100000, guid: ef589c1f5a9598c48b7e0855589430d3, type: 2}
 --- !u!4 &868994922
 Transform:
   m_ObjectHideFlags: 0
@@ -2413,7 +2414,18 @@ MonoBehaviour:
   m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 868994921}
+        m_MethodName: SetVolume
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1412963778
 GameObject:
   m_ObjectHideFlags: 0
@@ -2727,7 +2739,18 @@ MonoBehaviour:
   m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 868994921}
+        m_MethodName: SetVolumeMusic
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1574658279
 GameObject:
   m_ObjectHideFlags: 0
