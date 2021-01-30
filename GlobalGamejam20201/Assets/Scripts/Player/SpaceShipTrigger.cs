@@ -55,6 +55,7 @@ public class SpaceShipTrigger : MonoBehaviour
         transform.parent = null;
         col.transform.localPosition += Vector3.right * 1.5f;
         col = null;
+        pm = null;
         leaveShip.Invoke();
 
     }
@@ -76,9 +77,6 @@ public class SpaceShipTrigger : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.transform.tag.Contains("Landing"))
-        {
             canLeave = false;
-            pm = null;
-        }
     }
 }

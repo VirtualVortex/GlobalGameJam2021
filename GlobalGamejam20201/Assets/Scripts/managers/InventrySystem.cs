@@ -21,13 +21,7 @@ public class InventrySystem : MonoBehaviour
     {
         audioSource = GetComponent<AudioSource>();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
+    
     public void AddItem(Item item)
     {
         inventory.Add(item.itemName, item);
@@ -50,7 +44,7 @@ public class InventrySystem : MonoBehaviour
         {
             Debug.Log(collision.transform.GetComponent<StoreItemData>().item.itemName);
             AddItem(collision.transform.GetComponent<StoreItemData>().item);
-            ShowItems();
+            //ShowItems();
             Destroy(collision.gameObject);
             PlayAudio();
         }
