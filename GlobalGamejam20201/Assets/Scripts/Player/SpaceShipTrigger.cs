@@ -8,6 +8,7 @@ public class SpaceShipTrigger : MonoBehaviour
     [SerializeField]
     KeyCode key;
     public float speedAddative;
+    [SerializeField] float xOffset;
     [SerializeField]
     FloatVariable playerSpeed;
 
@@ -48,7 +49,7 @@ public class SpaceShipTrigger : MonoBehaviour
         playerSpeed.value -= speedAddative;
         isShip = false;
         transform.parent = null;
-        col.transform.localPosition += Vector3.right * 1.5f;
+        col.transform.localPosition += Vector3.right * xOffset;
         col = null;
         pm = null;
         leaveShip.Invoke();
