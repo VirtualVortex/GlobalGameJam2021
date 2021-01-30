@@ -18,4 +18,30 @@ public class UIButtons : MonoBehaviour
         SceneManager.LoadScene("MainLevel");
         Time.timeScale = 1;
     }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
+    public void Controls()
+    {
+        SceneManager.LoadScene("Controls");
+    }
+
+    public void Settings()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
+    }
+
+    public void Credits()
+    {
+        SceneManager.LoadScene("Credits");
+    }
+
 }
