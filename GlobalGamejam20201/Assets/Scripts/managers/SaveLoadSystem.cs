@@ -40,8 +40,7 @@ public class SaveLoadSystem : MonoBehaviour
     {
         curScene = SceneManager.GetActiveScene().name;
     }
-
-
+    
     public void SaveData()
     {
         //player prefs saving method
@@ -51,7 +50,7 @@ public class SaveLoadSystem : MonoBehaviour
         PlayerPrefs.SetFloat("Y", player.transform.position.y);
         PlayerPrefs.SetFloat("shipX", ship.position.x);
         PlayerPrefs.SetFloat("shipY", ship.position.y);
-        PlayerPrefs.SetInt("inventoryAmount", inventry.inventory.Count);
+        PlayerPrefs.SetInt("inventoryAmount", inventry.amount);
         PlayerPrefs.SetString("level1Complete", level1Complete.ToString());
         PlayerPrefs.SetString("level2Complete", level2Complete.ToString());
         PlayerPrefs.SetString("level3Complete", level3Complete.ToString());
@@ -71,7 +70,8 @@ public class SaveLoadSystem : MonoBehaviour
 
         if (inventry != null)
         {
-            inventry.amount = PlayerPrefs.GetInt("inventoryAmount");
+            inventry.amount = PlayerPrefs.GetInt("inventoryAmount", 3);
+            Debug.Log(inventry.amount);
             if (inventry.amount >= 3)
             {
                 foreach (StoreItemData data in FindObjectsOfType<StoreItemData>())

@@ -17,7 +17,7 @@ public class ItemChecker : MonoBehaviour
     {
         if (collision.tag.Contains("Player"))
         {
-            Debug.Log(collision.GetComponent<InventrySystem>().inventory.Count);
+            Debug.Log(collision.GetComponent<InventrySystem>().amount);
             if (collision.GetComponent<InventrySystem>().amount >= 3)
             {
                 ssT.CanLeave();

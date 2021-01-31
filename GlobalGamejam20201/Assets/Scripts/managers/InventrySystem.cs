@@ -22,12 +22,11 @@ public class InventrySystem : MonoBehaviour
     {
         audioSource = GetComponent<AudioSource>();
     }
-
-    private void Update() => amount = inventory.Count;
-
+    
     public void AddItem(Item item)
     {
         inventory.Add(item.itemName, item);
+        amount = inventory.Count;
     }
 
     void ShowItems()
