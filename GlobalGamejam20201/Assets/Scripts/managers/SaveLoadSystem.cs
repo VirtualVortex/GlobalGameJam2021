@@ -30,14 +30,18 @@ public class SaveLoadSystem : MonoBehaviour
     void Start()
     {
         DontDestroyOnLoad(this.gameObject);
-        bm = GetComponent<BeaconManager>();
+
+        if (FindObjectOfType<BeaconManager>())
+        {
+            bm = FindObjectOfType<BeaconManager>();
+        }
     }
 
 
     // Update is called once per frame
     void Update()
     {
-        if (curScene != SceneManager.GetActiveScene().name && curScene != "MainMenu")
+        if (curScene != SceneManager.GetActiveScene().name || curScene == "")
             LoadData();
 
         if (bm.reset)
