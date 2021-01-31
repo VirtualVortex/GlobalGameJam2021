@@ -85,7 +85,6 @@ public class GameManager : MonoBehaviour
         {
             WonPanel.SetActive(true);
             theMusic.Stop();
-            Time.timeScale = 0;
         }
     }
 
