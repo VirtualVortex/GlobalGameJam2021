@@ -107417,6 +107417,11 @@ PrefabInstance:
       propertyPath: xOffset
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 8276272371968833058, guid: 03d21ec54aee1a44bae973e752823063,
+        type: 3}
+      propertyPath: speedAddative
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8276272371968833059, guid: 03d21ec54aee1a44bae973e752823063,
         type: 3}
       propertyPath: m_Name
