@@ -23,9 +23,16 @@ public class UIButtons : MonoBehaviour
 
     public void MainMenu()
     {
-        AudioManager.instance.Play("UI_Menu_Back");
-        SceneManager.LoadScene("MainMenu");
+        AudioManager.instance.Play("Back");
+        StartCoroutine(MainMenuSound());
+        
        
+    }
+
+    IEnumerator MainMenuSound()
+    {
+        yield return new WaitForSeconds(5);
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void Controls()
