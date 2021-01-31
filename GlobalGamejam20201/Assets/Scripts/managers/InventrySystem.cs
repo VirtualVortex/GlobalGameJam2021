@@ -13,6 +13,7 @@ public class InventrySystem : MonoBehaviour
 
     [HideInInspector]
     public Dictionary<string, Item> inventory = new Dictionary<string, Item>();
+    [HideInInspector] public int amount;
 
     AudioSource audioSource;
 
@@ -25,6 +26,7 @@ public class InventrySystem : MonoBehaviour
     public void AddItem(Item item)
     {
         inventory.Add(item.itemName, item);
+        amount = inventory.Count;
     }
 
     void ShowItems()
