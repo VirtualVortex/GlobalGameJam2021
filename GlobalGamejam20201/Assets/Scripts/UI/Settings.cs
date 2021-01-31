@@ -62,7 +62,7 @@ public class Settings : MonoBehaviour
     public void SetVolumeMusic(float volumeMusic)
     {
         PlayerPrefs.SetFloat("VolumeMusic", volumeMusic);
-        audioMixerMusic.SetFloat("volumeMusic", Mathf.Log10(volumeMusic) * 20);
+        audioMixerMusic.SetFloat("VolumeMusic", Mathf.Log10(volumeMusic) * 20);
     }
 
 

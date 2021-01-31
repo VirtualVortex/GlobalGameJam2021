@@ -44,7 +44,7 @@ public class AudioManager : MonoBehaviour
 
     public void Start()
     {
-        SFXVolume.SetFloat("volume", Mathf.Log10(PlayerPrefs.GetFloat("volume", 1)) * 20);
+        SFXVolume.SetFloat("Volume", Mathf.Log10(PlayerPrefs.GetFloat("Volume", 1)) * 20);
         //Play("Wind_1");
         //Play("Bad_Weather");
         //Play("Grass");

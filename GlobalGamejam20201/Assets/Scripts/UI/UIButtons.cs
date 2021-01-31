@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.Audio;
+using System;
 
 public class UIButtons : MonoBehaviour
 {
@@ -21,7 +23,9 @@ public class UIButtons : MonoBehaviour
 
     public void MainMenu()
     {
+        AudioManager.instance.Play("UI_Menu_Back");
         SceneManager.LoadScene("MainMenu");
+       
     }
 
     public void Controls()
