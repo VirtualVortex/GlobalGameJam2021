@@ -23,7 +23,7 @@ public class UIButtons : MonoBehaviour
 
     public void MainMenu()
     {
-        AudioManager.instance.Play("Back");
+        
         StartCoroutine(MainMenuSound());
         
        
@@ -31,6 +31,7 @@ public class UIButtons : MonoBehaviour
 
     IEnumerator MainMenuSound()
     {
+        AudioManager.instance.Play("Back");
         yield return new WaitForSeconds(5);
         SceneManager.LoadScene("MainMenu");
     }
