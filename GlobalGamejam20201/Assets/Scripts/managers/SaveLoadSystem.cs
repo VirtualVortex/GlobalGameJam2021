@@ -45,7 +45,8 @@ public class SaveLoadSystem : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        DontDestroyOnLoad(this.gameObject);
+        //DontDestroyOnLoad(this.gameObject);
+        LoadData();
     }
 
 
