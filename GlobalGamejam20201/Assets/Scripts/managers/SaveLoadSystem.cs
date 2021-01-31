@@ -28,19 +28,19 @@ public class SaveLoadSystem : MonoBehaviour
     string curScene;
     BeaconManager bm;
 
-    /*private void Awake()
+    private void Awake()
     {
-        if (inst == null)
+        /*if (inst == null)
             inst = this;
         else if (inst != this)
-            Destroy(FindObjectOfType<SaveLoadSystem>().gameObject);
+            Destroy(FindObjectOfType<SaveLoadSystem>().gameObject);*/
 
         if (PlayerPrefs.GetInt("reset") == 1)
         {
             NewGame();
             PlayerPrefs.SetInt("reset", 0);
         }
-    }*/
+    }
 
     // Use this for initialization
     void Start()
