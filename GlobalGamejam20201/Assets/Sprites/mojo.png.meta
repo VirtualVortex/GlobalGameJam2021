@@ -1,7 +1,70 @@
 fileFormatVersion: 2
 guid: 6a2cec32e85969246ad05f2bb0598f52
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 7972831353315601119
+    second: mojo_0
+  - first:
+      213: 4697118895043248121
+    second: mojo_1
+  - first:
+      213: -6593153628899427606
+    second: mojo_2
+  - first:
+      213: -227022164990627401
+    second: mojo_3
+  - first:
+      213: 828620815779154010
+    second: mojo_4
+  - first:
+      213: 8701365036594466956
+    second: mojo_5
+  - first:
+      213: 3786052984849646062
+    second: mojo_6
+  - first:
+      213: -2810628983268060842
+    second: mojo_7
+  - first:
+      213: -7805130319417512004
+    second: mojo_8
+  - first:
+      213: 1552645262784353649
+    second: mojo_9
+  - first:
+      213: 5548444258984356786
+    second: mojo_10
+  - first:
+      213: 8866654503234476630
+    second: mojo_11
+  - first:
+      213: 7852761985657020830
+    second: mojo_12
+  - first:
+      213: -8520548754116638210
+    second: mojo_13
+  - first:
+      213: 8673876049478547619
+    second: mojo_14
+  - first:
+      213: 8908082849731720879
+    second: mojo_15
+  - first:
+      213: 8569695960022728923
+    second: mojo_16
+  - first:
+      213: 8946206542385346756
+    second: mojo_17
+  - first:
+      213: 3124848470687651834
+    second: mojo_18
+  - first:
+      213: 4732176954669466427
+    second: mojo_19
+  - first:
+      213: -6215472460673520111
+    second: mojo_20
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +103,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -85,7 +148,70 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: mojo_0
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 338
+        width: 362
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda297cbfdf25ae60800000000000000
+      internalID: 7972831353315601119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mojo_1
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 327
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fff3d6afb48f2140800000000000000
+      internalID: 4697118895043248121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mojo_2
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 0
+        width: 281
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea3fdfd4b96084a0800000000000000
+      internalID: -6593153628899427606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
