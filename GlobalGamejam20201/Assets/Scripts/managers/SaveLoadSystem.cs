@@ -23,18 +23,32 @@ public class SaveLoadSystem : MonoBehaviour
 
     [HideInInspector] public bool level1Complete, level2Complete, level3Complete;
 
+    public static SaveLoadSystem inst;
+
     string curScene;
     BeaconManager bm;
+
+    private void Awake()
+    {
+        if (inst == null)
+            inst = this;
+        else
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        if (PlayerPrefs.GetInt("reset") == 1)
+        {
+            NewGame();
+            PlayerPrefs.SetInt("reset", 0);
+        }
+    }
 
     // Use this for initialization
     void Start()
     {
         DontDestroyOnLoad(this.gameObject);
-
-        if (FindObjectOfType<BeaconManager>())
-        {
-            bm = FindObjectOfType<BeaconManager>();
-        }
     }
 
 
@@ -43,9 +57,6 @@ public class SaveLoadSystem : MonoBehaviour
     {
         if (curScene != SceneManager.GetActiveScene().name || curScene == "")
             LoadData();
-
-        if (bm.reset)
-            NewGame();
     }
 
     private void LateUpdate()
