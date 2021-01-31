@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Controls.unity
     guid: 162b1de09a951c646bdf7be1026a6fae
   - enabled: 1
+    path: Assets/Scenes/MainLevel.unity
+    guid: 46621b4accff15a439d651298c9512a7
+  - enabled: 1
     path: Assets/Scenes/MiniGameBass.unity
     guid: 84eb4ca9abc1d534c983a768dd3aeac1
   - enabled: 1
