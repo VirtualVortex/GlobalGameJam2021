@@ -7,9 +7,12 @@ public class BeaconManager : MonoBehaviour
     [SerializeField] AudioSource[] audioSources;
     int number;
 
+    [HideInInspector] public bool reset;
+
     // Start is called before the first frame update
     void Start()
     {
+        reset = false;
         number = PlayerPrefs.GetInt("saveNum");
 
         if (audioSources.Length > 0) SwitchAudio();
@@ -33,7 +36,11 @@ public class BeaconManager : MonoBehaviour
         }
     }
 
-    public void ResetNumber() => PlayerPrefs.SetInt("saveNum", 0);
+    public void ResetNumber()
+    {
+        PlayerPrefs.SetInt("saveNum", 0);
+        reset = true;
+    }
 
     public void SaveNumber()
     {

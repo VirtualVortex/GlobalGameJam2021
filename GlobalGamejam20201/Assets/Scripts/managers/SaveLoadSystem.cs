@@ -24,9 +24,14 @@ public class SaveLoadSystem : MonoBehaviour
     [HideInInspector] public bool level1Complete, level2Complete, level3Complete;
 
     string curScene;
+    BeaconManager bm;
 
     // Use this for initialization
-    void Start() => DontDestroyOnLoad(this.gameObject);
+    void Start()
+    {
+        DontDestroyOnLoad(this.gameObject);
+        bm = GetComponent<BeaconManager>();
+    }
 
 
     // Update is called once per frame
@@ -34,6 +39,9 @@ public class SaveLoadSystem : MonoBehaviour
     {
         if (curScene != SceneManager.GetActiveScene().name && curScene != "MainMenu")
             LoadData();
+
+        if (bm.reset)
+            NewGame();
     }
 
     private void LateUpdate()
