@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Drums
   m_EditorClassIdentifier: 
   itemName: Drums
-  itemImg: {fileID: 21300000, guid: ea8f56c43254d41728f5ac4e8299b6c9, type: 3}
+  itemImg: {fileID: 21300000, guid: 01b9d7a223962b042aa588382840d7ba, type: 3}

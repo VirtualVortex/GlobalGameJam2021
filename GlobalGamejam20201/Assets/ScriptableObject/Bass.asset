@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Bass
   m_EditorClassIdentifier: 
   itemName: Bass
-  itemImg: {fileID: 21300000, guid: 62573ea76cbf34643bf28a259a6c901c, type: 3}
+  itemImg: {fileID: 21300000, guid: 8ca57a52ebe53604f9b4c5fe1b625936, type: 3}
