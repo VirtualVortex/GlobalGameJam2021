@@ -53,16 +53,16 @@ public class Settings : MonoBehaviour
         audioMixerMusic.SetFloat("VolumeMusic", Mathf.Log10(SFXSLIDER.value) * 20);
     }
 
-    public void SetVolume(float volume)
+    public void SetVolume(float Volume)
     {
-        PlayerPrefs.SetFloat("Volume", volume);
-        audioMixer.SetFloat("Volume", Mathf.Log10(volume) * 20);
+        PlayerPrefs.SetFloat("Volume", Volume);
+        audioMixer.SetFloat("Volume", Mathf.Log10(Volume) * 20);
     }
 
-    public void SetVolumeMusic(float volumeMusic)
+    public void SetVolumeMusic(float VolumeMusic)
     {
-        PlayerPrefs.SetFloat("VolumeMusic", volumeMusic);
-        audioMixerMusic.SetFloat("VolumeMusic", Mathf.Log10(volumeMusic) * 20);
+        PlayerPrefs.SetFloat("VolumeMusic", VolumeMusic);
+        audioMixerMusic.SetFloat("VolumeMusic", Mathf.Log10(VolumeMusic) * 20);
     }
 
 
