@@ -32,7 +32,7 @@ public class SaveLoadSystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (curScene != SceneManager.GetActiveScene().name)
+        if (curScene != SceneManager.GetActiveScene().name && curScene != "MainMenu")
             LoadData();
     }
 
