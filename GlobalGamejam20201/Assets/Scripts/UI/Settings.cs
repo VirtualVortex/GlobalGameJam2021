@@ -44,24 +44,24 @@ public class Settings : MonoBehaviour
         resolutionDropdown.value = CurrentResolutionIndex;
         resolutionDropdown.RefreshShownValue();
 
-        SFXSLIDER.value = PlayerPrefs.GetFloat("volume", 1f);
+        SFXSLIDER.value = PlayerPrefs.GetFloat("Volume", 1f);
 
-        audioMixer.SetFloat("volume", Mathf.Log10(SFXSLIDER.value) * 20);
+        audioMixer.SetFloat("Volume", Mathf.Log10(SFXSLIDER.value) * 20);
 
-        MusicSlider.value = PlayerPrefs.GetFloat("volumeMusic", 1f);
+        MusicSlider.value = PlayerPrefs.GetFloat("VolumeMusic", 1f);
 
-        audioMixerMusic.SetFloat("volumeMusic", Mathf.Log10(SFXSLIDER.value) * 20);
+        audioMixerMusic.SetFloat("VolumeMusic", Mathf.Log10(SFXSLIDER.value) * 20);
     }
 
     public void SetVolume(float volume)
     {
-        PlayerPrefs.SetFloat("volume", volume);
-        audioMixer.SetFloat("volume", Mathf.Log10(volume) * 20);
+        PlayerPrefs.SetFloat("Volume", volume);
+        audioMixer.SetFloat("Volume", Mathf.Log10(volume) * 20);
     }
 
     public void SetVolumeMusic(float volumeMusic)
     {
-        PlayerPrefs.SetFloat("volume", volumeMusic);
+        PlayerPrefs.SetFloat("VolumeMusic", volumeMusic);
         audioMixerMusic.SetFloat("volumeMusic", Mathf.Log10(volumeMusic) * 20);
     }
 

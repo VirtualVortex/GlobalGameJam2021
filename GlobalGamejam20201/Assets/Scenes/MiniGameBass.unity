@@ -121,6 +121,75 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &24765601
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5202357796381616677, guid: 942622284259354428f6dd97164e7573,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 576.0999
+      objectReference: {fileID: 0}
+    - target: {fileID: 5202357796381616677, guid: 942622284259354428f6dd97164e7573,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 521.4589
+      objectReference: {fileID: 0}
+    - target: {fileID: 5202357796381616677, guid: 942622284259354428f6dd97164e7573,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -86.0247
+      objectReference: {fileID: 0}
+    - target: {fileID: 5202357796381616677, guid: 942622284259354428f6dd97164e7573,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5202357796381616677, guid: 942622284259354428f6dd97164e7573,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5202357796381616677, guid: 942622284259354428f6dd97164e7573,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5202357796381616677, guid: 942622284259354428f6dd97164e7573,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5202357796381616677, guid: 942622284259354428f6dd97164e7573,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5202357796381616677, guid: 942622284259354428f6dd97164e7573,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5202357796381616677, guid: 942622284259354428f6dd97164e7573,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5202357796381616677, guid: 942622284259354428f6dd97164e7573,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5489503504806549371, guid: 942622284259354428f6dd97164e7573,
+        type: 3}
+      propertyPath: m_Name
+      value: AudioManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 942622284259354428f6dd97164e7573, type: 3}
 --- !u!1 &27981084
 GameObject:
   m_ObjectHideFlags: 0
@@ -765,7 +834,8 @@ AudioSource:
   m_GameObject: {fileID: 390422262}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: ef589c1f5a9598c48b7e0855589430d3,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: eb0e225b8e8e01d4bacbd96719ff8c58, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -774,7 +844,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 200
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500

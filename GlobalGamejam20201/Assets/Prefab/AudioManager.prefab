@@ -43,6 +43,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73b7d968e91256f46a29a9aec72a9456, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sounds: []
+  sounds:
+  - name: Miss
+    clip: {fileID: 8300000, guid: 1cec135da535e3346b4ecaa9b16af5f8, type: 3}
+    audioMixer: {fileID: 24300002, guid: ec1f34122ae2a5749af7d779b127bede, type: 2}
+    loop: 0
+    source: {fileID: 0}
+  - name: Hit
+    clip: {fileID: 8300000, guid: a97ac8775835e2c4cb2b0f70233b791a, type: 3}
+    audioMixer: {fileID: 24300002, guid: ec1f34122ae2a5749af7d779b127bede, type: 2}
+    loop: 0
+    source: {fileID: 0}
+  - name: Down
+    clip: {fileID: 8300000, guid: ed93b299ba7367a4cb247a6c3d1a6966, type: 3}
+    audioMixer: {fileID: 24300002, guid: ec1f34122ae2a5749af7d779b127bede, type: 2}
+    loop: 0
+    source: {fileID: 0}
   SFXVolume: {fileID: 24100000, guid: ec1f34122ae2a5749af7d779b127bede, type: 2}
   MusicVolume: {fileID: 24100000, guid: ef589c1f5a9598c48b7e0855589430d3, type: 2}

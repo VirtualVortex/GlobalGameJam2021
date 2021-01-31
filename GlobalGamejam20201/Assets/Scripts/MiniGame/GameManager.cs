@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Audio;
+using System;
 
 public class GameManager : MonoBehaviour
 {
@@ -50,7 +52,7 @@ public class GameManager : MonoBehaviour
             {
                 startPlaying = true;
                 theBs.hasStarted = true;
-
+                AudioManager.instance.Play("Down");
                 theMusic.Play();
             }
         }
@@ -59,8 +61,9 @@ public class GameManager : MonoBehaviour
     public void NoteHit()
     {
         Debug.Log("Hit On time");
+        AudioManager.instance.Play("Hit");
 
-        if(currentMultiplier -1 < multiplierThresholds.Length)
+        if (currentMultiplier -1 < multiplierThresholds.Length)
         {
             multiplierTracker++;
 
@@ -89,5 +92,6 @@ public class GameManager : MonoBehaviour
     public void NoteMissed()
     {
         Debug.Log("Missed note");
+        AudioManager.instance.Play("Miss");
     }
 }
