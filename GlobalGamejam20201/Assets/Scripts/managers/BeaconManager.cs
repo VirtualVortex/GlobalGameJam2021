@@ -47,6 +47,7 @@ public class BeaconManager : MonoBehaviour
     public void SaveNumber()
     {
         Debug.Log(number + 1);
+        number = number + 1;
         PlayerPrefs.SetInt("saveNum", number + 1);
     }
 }
