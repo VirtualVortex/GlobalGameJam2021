@@ -23,41 +23,37 @@ public class UIButtons : MonoBehaviour
 
     public void MainMenu()
     {
-        
-        StartCoroutine(MainMenuSound());
-        
-       
-    }
-
-    IEnumerator MainMenuSound()
-    {
-        AudioManager.instance.Play("Back");
-        yield return new WaitForSeconds(5);
+        FindObjectOfType<AudioManager>().Play("Back");
         SceneManager.LoadScene("MainMenu");
     }
 
     public void Controls()
     {
+        FindObjectOfType<AudioManager>().Play("Forward");
         SceneManager.LoadScene("Controls");
     }
 
     public void Settings()
     {
+        FindObjectOfType<AudioManager>().Play("Forward");
         SceneManager.LoadScene("Settings");
     }
 
     public void Quit()
     {
+        FindObjectOfType<AudioManager>().Play("Forward");
         Application.Quit();
     }
 
     public void Credits()
     {
+        FindObjectOfType<AudioManager>().Play("Forward");
         SceneManager.LoadScene("Credits");
     }
 
     public void StartGame()
     {
+        FindObjectOfType<AudioManager>().Play("Forward");
         SceneManager.LoadScene("MainLevel");
     }
 
