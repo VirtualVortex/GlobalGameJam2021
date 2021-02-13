@@ -27,7 +27,6 @@ public class PlayerMovement : MonoBehaviour
 
     void Movement()
     {
-        FindObjectOfType<AudioManager>().Play("FootSteps");
         float x = Input.GetAxis("Horizontal");
         float y = Input.GetAxis("Vertical");
 
@@ -38,5 +37,7 @@ public class PlayerMovement : MonoBehaviour
         anim.SetFloat("SpeedY", y);
 
         rb.velocity = move;
+
+        if(x != 0 || y != 0) FindObjectOfType<AudioManager>().Play("FootSteps");
     }
 }

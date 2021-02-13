@@ -69,5 +69,20 @@ MonoBehaviour:
     audioMixer: {fileID: 24300002, guid: ec1f34122ae2a5749af7d779b127bede, type: 2}
     loop: 0
     source: {fileID: 0}
+  - name: FootSteps
+    clip: {fileID: 8300000, guid: f281a0b0d86f69140ab305d0c8fb23ee, type: 3}
+    audioMixer: {fileID: 24300002, guid: ec1f34122ae2a5749af7d779b127bede, type: 2}
+    loop: 0
+    source: {fileID: 0}
+  - name: Landing
+    clip: {fileID: 8300000, guid: d300a6862c9c9a445b0261bcf3270b4c, type: 3}
+    audioMixer: {fileID: 24300002, guid: ec1f34122ae2a5749af7d779b127bede, type: 2}
+    loop: 0
+    source: {fileID: 0}
+  - name: TakeOff
+    clip: {fileID: 8300000, guid: 4abec7d47bc222541bbe705d82c9ef4e, type: 3}
+    audioMixer: {fileID: 24300002, guid: ec1f34122ae2a5749af7d779b127bede, type: 2}
+    loop: 0
+    source: {fileID: 0}
   SFXVolume: {fileID: 24100000, guid: ec1f34122ae2a5749af7d779b127bede, type: 2}
   MusicVolume: {fileID: 24100000, guid: ef589c1f5a9598c48b7e0855589430d3, type: 2}
