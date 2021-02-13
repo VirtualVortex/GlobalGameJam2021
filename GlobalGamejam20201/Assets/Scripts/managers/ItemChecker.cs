@@ -8,10 +8,7 @@ public class ItemChecker : MonoBehaviour
     public UnityEvent myEvent;
 
     public void InvokeEvent() => myEvent.Invoke();
-
-    SpaceShipTrigger ssT;
-
-    private void Start() => ssT = GetComponent<SpaceShipTrigger>();
+    
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -20,7 +17,6 @@ public class ItemChecker : MonoBehaviour
             Debug.Log(collision.GetComponent<InventrySystem>().amount);
             if (collision.GetComponent<InventrySystem>().amount >= 3)
             {
-                ssT.CanLeave();
                 InvokeEvent();
             }
         }
