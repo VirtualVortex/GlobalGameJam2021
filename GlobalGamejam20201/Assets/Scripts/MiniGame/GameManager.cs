@@ -31,8 +31,8 @@ public class GameManager : MonoBehaviour
     public float MaxNum = 100;
 
     public GameObject WonPanel;
-    
 
+    public PlayerMovement pm;
 
     // Start is called before the first frame update
     void Start()
@@ -40,7 +40,8 @@ public class GameManager : MonoBehaviour
         instance = this;
         scoreText.text = "Score: 0";
         currentMultiplier = 1;
-
+        pm.enabled = false;
+        pm.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
     }
 
     // Update is called once per frame
