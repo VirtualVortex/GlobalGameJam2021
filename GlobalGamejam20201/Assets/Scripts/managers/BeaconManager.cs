@@ -24,6 +24,7 @@ public class BeaconManager : MonoBehaviour
         
     }
 
+    //Switch between audio sources
     void SwitchAudio()
     {
         for (int i = 0; i < audioSources.Length; i++)
@@ -36,6 +37,7 @@ public class BeaconManager : MonoBehaviour
         }
     }
 
+    //reset audio
     public void ResetNumber()
     {
         PlayerPrefs.SetInt("saveNum", 0);
