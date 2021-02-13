@@ -42,6 +42,7 @@ public class GameManager : MonoBehaviour
         currentMultiplier = 1;
         pm.enabled = false;
         pm.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
+        pm.GetComponent<Collider2D>().isTrigger = true;
     }
 
     // Update is called once per frame

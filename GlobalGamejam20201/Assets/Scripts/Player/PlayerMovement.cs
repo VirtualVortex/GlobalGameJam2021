@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
 
     Rigidbody2D rb;
     Animator anim;
+    bool runOnce;
 
     // Start is called before the first frame update
     void Start()
@@ -38,6 +39,7 @@ public class PlayerMovement : MonoBehaviour
 
         rb.velocity = move;
 
-        if(x != 0 || y != 0) FindObjectOfType<AudioManager>().Play("FootSteps");
+        if (x != 0 || y != 0) FindObjectOfType<AudioManager>().Play("FootSteps");
     }
+    
 }
