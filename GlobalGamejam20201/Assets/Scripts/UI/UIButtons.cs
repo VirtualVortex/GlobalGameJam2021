@@ -17,10 +17,10 @@ public class UIButtons : MonoBehaviour
 
     public void ReturnButton()
     {
-        SceneManager.LoadScene("MusicBuilding");
+        SceneManager.LoadScene("MainLevel");
         Time.timeScale = 1;
     }
-
+    
     public void MainMenu()
     {
         FindObjectOfType<AudioManager>().Play("Back");
@@ -54,7 +54,7 @@ public class UIButtons : MonoBehaviour
     public void StartGame()
     {
         FindObjectOfType<AudioManager>().Play("Forward");
-        SceneManager.LoadScene("MainLevel");
+        SceneManager.LoadScene("MusicBuilding");
     }
 
 }
