@@ -59,5 +59,15 @@ MonoBehaviour:
     audioMixer: {fileID: 24300002, guid: ec1f34122ae2a5749af7d779b127bede, type: 2}
     loop: 0
     source: {fileID: 0}
+  - name: Back
+    clip: {fileID: 8300000, guid: 1d7d374af9ca0ef4b8c8bbda6f58e7e6, type: 3}
+    audioMixer: {fileID: 24300002, guid: ec1f34122ae2a5749af7d779b127bede, type: 2}
+    loop: 0
+    source: {fileID: 0}
+  - name: Forward
+    clip: {fileID: 8300000, guid: 024341ee44507dd47ab419cee0e0031b, type: 3}
+    audioMixer: {fileID: 24300002, guid: ec1f34122ae2a5749af7d779b127bede, type: 2}
+    loop: 0
+    source: {fileID: 0}
   SFXVolume: {fileID: 24100000, guid: ec1f34122ae2a5749af7d779b127bede, type: 2}
   MusicVolume: {fileID: 24100000, guid: ef589c1f5a9598c48b7e0855589430d3, type: 2}
