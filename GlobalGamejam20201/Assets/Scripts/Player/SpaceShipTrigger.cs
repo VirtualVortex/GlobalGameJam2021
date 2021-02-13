@@ -66,6 +66,7 @@ public class SpaceShipTrigger : MonoBehaviour
         if (!isShip && collision.tag.Contains("Player") && canUse)
         {
             Debug.Log("Enter ship");
+            FindObjectOfType<AudioManager>().Play("TakeOff");
             col = collision;
             EnterShip(collision);
             pm = GetComponentInParent<PlayerMovement>();
@@ -78,6 +79,7 @@ public class SpaceShipTrigger : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.transform.tag.Contains("Landing"))
+            FindObjectOfType<AudioManager>().Play("Landing");
             canLeave = false;
     }
     

@@ -27,6 +27,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Movement()
     {
+        FindObjectOfType<AudioManager>().Play("FootSteps");
         float x = Input.GetAxis("Horizontal");
         float y = Input.GetAxis("Vertical");
 
