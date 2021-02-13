@@ -13,7 +13,7 @@ public class BeaconManager : MonoBehaviour
     void Start()
     {
         PlayerPrefs.SetInt("reset", 1);
-        number = PlayerPrefs.GetInt("saveNum");
+        number = 0;
 
         if (audioSources.Length > 0) SwitchAudio();
     }
@@ -44,10 +44,11 @@ public class BeaconManager : MonoBehaviour
         PlayerPrefs.SetInt("reset", 1);
     }
 
+    public void IncreaseNum() => number += 1;
+
     public void SaveNumber()
     {
         Debug.Log(number + 1);
-        number = number + 1;
         PlayerPrefs.SetInt("saveNum", number + 1);
     }
 }

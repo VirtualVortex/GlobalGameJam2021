@@ -25,6 +25,7 @@ public class SpaceShipTrigger : MonoBehaviour
     void Start()
     {
         isShip = false;
+        CanLeave();
     }
 
     // Update is called once per frame
@@ -64,6 +65,7 @@ public class SpaceShipTrigger : MonoBehaviour
 
         if (!isShip && collision.tag.Contains("Player") && canUse)
         {
+            Debug.Log("Enter ship");
             col = collision;
             EnterShip(collision);
             pm = GetComponentInParent<PlayerMovement>();
